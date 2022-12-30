@@ -1,12 +1,13 @@
 import * as request from 'request';
 import * as readline from 'readline';
 import * as fs from 'fs';
+import * as dotenv from 'dotenv';
 import * as cheerio from 'cheerio';
 
+dotenv.config();
 
-
-const API_KEY = "pub_xeantfvrcfxlyoamlz";
-const API_SECRET = "pk_c2d305f3-9026-406c-95cb-ce17640b2b64";
+const API_KEY = process.env.API_KEY;
+const API_SECRET = process.env.API_SECRET;
 
 const rl = readline.createInterface({
     input: process.stdin,

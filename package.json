@@ -1,9 +1,11 @@
 {
 	"dependencies": {
+		"dotenv": "^16.0.3",
 		"request": "^2.88.2"
 	},
 	"devDependencies": {
 		"@types/cheerio": "^0.22.31",
+		"@types/dotenv": "^8.2.0",
 		"@types/qs": "^6.9.7",
 		"@types/request": "^2.48.8"
 	}
