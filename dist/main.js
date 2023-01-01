@@ -131,10 +131,6 @@ function getSynthesizedSpeech(uuid) {
         });
     });
 }
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-});
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
         const url = yield getUserInput('Enter a URL:\n');
@@ -151,7 +147,7 @@ function main() {
             file.on('end', () => {
                 player.play('output.wav', (err) => {
                     if (err) {
-                        console.error(err);
+                        console.error('Error playing audio');
                     }
                 });
             });
