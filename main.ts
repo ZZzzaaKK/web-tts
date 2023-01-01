@@ -103,11 +103,6 @@ async function getSynthesizedSpeech(uuid: string): Promise<string> {
     });
 }
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-});
-
 async function main() {
     const url = await getUserInput('Enter a URL:\n');
 
