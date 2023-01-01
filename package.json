@@ -1,12 +1,16 @@
 {
 	"dependencies": {
+		"cheerio": "1.0.0-rc.12",
 		"dotenv": "^16.0.3",
 		"request": "^2.88.2"
 	},
 	"devDependencies": {
+		"@types/axios": "^0.14.0",
 		"@types/cheerio": "^0.22.31",
 		"@types/dotenv": "^8.2.0",
 		"@types/qs": "^6.9.7",
-		"@types/request": "^2.48.8"
+		"@types/request": "^2.48.8",
+		"axios": "^1.2.2",
+		"play-sound": "^1.1.5"
 	}
 }
